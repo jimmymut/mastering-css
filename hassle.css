@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.top-header{
+    color: rgb(23, 144, 144);
+}
+
+.header-two{
+    color: hsl(71, 73%, 54%)
+}
+
+.paragraph{
+    color: gray;
+}
+
+.interest{
+    display: flex;
+    /* gap: 30px; */
+    height: 300px;
+    padding-top: 20px;
+}
+
+.monthly{
+    background-color: rgb(23, 144, 144);
+    height: 100%;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-conent{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    width: 70px;
+    border: none;
+    margin-top: 30px;
+    align-self: center;
+    color: aliceblue;
+    padding: 3px 10px;
+}
+
+.reesons{
+    background-color: rgb(28, 165, 165);
+    height: 100%;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.reesons p{
+    /* padding-top: 3px; */
+    margin-top: 1px;
+}
